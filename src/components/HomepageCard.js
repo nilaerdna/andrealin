@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function HomepageCard( {icon, title, children} ) {
+export default function HomepageCard( {icon, title, color, children} ) {
     return (
-        <article className="media notification">
+        <article className={"media notification " + color}>
             <figure className="media-left">
                 <p className="image is-64x64">
                     {icon || <img src="https://bulma.io/images/placeholders/128x128.png" alt="placeholder" />}
