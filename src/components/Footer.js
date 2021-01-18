@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiBulma, SiReact} from 'react-icons/si';
+import { SiBulma, SiReact, SiReactrouter } from 'react-icons/si';
 export default function Footer() {
     return (
         <footer className="footer">
@@ -9,8 +9,9 @@ export default function Footer() {
                     <br />
                     IIS Blaise Pascal, RE. 2018 - 2021.
                 </p>
-                <SiReact size="25"/>
-                <SiBulma size="25"/>
+                <SiBulma className="icon is-medium px-1" />
+                <SiReact className="icon is-medium px-1" />
+                <SiReactrouter className="icon is-medium px-1" />
             </div>
         </footer>
     );

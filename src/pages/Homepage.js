@@ -37,7 +37,7 @@ export default function Homepage({ icon, text }) {
                         </HomepageCard>
                     </div>
                     <div className="column is-half">
-                        <HomepageCard icon={<BiGame classnName="icon" size="64" />} title="Hobbies" color="is-warning">
+                        <HomepageCard icon={<BiGame size="64" />} title="Hobbies" color="is-warning">
                             <p>
                                 Computer Hardware
                                 <br />
@@ -46,17 +46,17 @@ export default function Homepage({ icon, text }) {
                         </HomepageCard>
                     </div>
                     <div className="column is-one-third">
-                        <OtherCard icon={<FaUser className="has-text-danger" size="48" />} title="Chi sono?">
+                        <OtherCard icon={<FaUser className="has-text-danger icon is-medium" />} title="Chi sono?">
                             <p className="subtitle">Ciao, mi chiamo Andrea Lin, abito a Poviglio, ho {age} anni e studio informatica all'I.I.S. Blaise Pascal di Reggio Emilia.</p>
                         </OtherCard>
                     </div>
                     <div className="column is-one-third">
-                        <OtherCard icon={<IoHardwareChip className="has-text-dark" size="48" />} title="Hardware">
+                        <OtherCard icon={<IoHardwareChip className="has-text-dark icon is-medium" />} title="Hardware">
                             <p className="subtitle">Mi piace avere qualsiasi gadget tecnologico sotto mano, io stesso mi sono assemblato il mio computer!</p>
                         </OtherCard>
                     </div>
                     <div className="column is-one-third">
-                        <OtherCard icon={<IoCodeSlash className="has-text-success" size="48" />} title="Coding">
+                        <OtherCard icon={<IoCodeSlash className="has-text-success icon is-medium" />} title="Coding">
                             <p className="subtitle">Ho iniziato a scrivere codice all'età di 13 anni, e da lì mi sono innamorato della materia. Attualmente sono immerso nel mondo del Web Development, con lo stack MERN.</p>
                         </OtherCard>
                     </div>

@@ -2,16 +2,18 @@
 @import './custom.scss';
 @import 'bulma/bulma';
 
+// CSS Reset
 html,
 body {
     padding: 0;
     margin: 0;
 }
 
-.progress::-webkit-progress-value {
-  transition: width 0.5s ease;
-}
-
 * {
     box-sizing: border-box;
+}
+
+// Progress bar animation
+.progress::-webkit-progress-value {
+  transition: width 0.5s ease;
 }

@@ -20,16 +20,12 @@ export default function Other() {
                 <article className="message is-dark">
                     <div className="message-body">
                         <p>
-                            Molti dei progetti sottostanti sono presenti sul mio profilo{' '}
-                            <Link target="_blank" href="https://github.com/nilaerdna">
-                                GitHub <FaGithub />
-                            </Link>
-                            .
+                            Molti dei progetti sottostanti sono presenti sul mio profilo <Link target="_blank" href="https://github.com/nilaerdna">GitHub <FaGithub className="icon is-small" /></Link>.
                         </p>
                     </div>
                 </article>
-                {projects.map(({name, image, description, link})=>{
-                    return(<ProjectRow name={name} image={image} description={description} link={link}/>);
+                {projects.map(({ name, image, description, link }) => {
+                    return <ProjectRow name={name} image={image} description={description} link={link} />;
                 })}
             </Section>
         </>
