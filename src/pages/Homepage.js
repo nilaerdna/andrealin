@@ -6,10 +6,13 @@ import OtherCard from '../components/OtherCard';
 import { BiGame } from 'react-icons/bi';
 import { FaUser } from 'react-icons/fa';
 import { IoHardwareChip, IoCodeSlash } from 'react-icons/io5';
+import { languages } from '../content/languages';
+import { libraries } from '../content/libraries';
+import SkillProgress from '../components/SkillProgress';
 
 export default function Homepage({ icon, text }) {
     const birthday = new Date('2002-10-31');
-    
+
     const calculateAge = (birthday) => {
         let difference = Date.now() - birthday.getTime();
         let date = new Date(difference);
@@ -57,10 +60,13 @@ export default function Homepage({ icon, text }) {
                             <p class="subtitle">Ho iniziato a scrivere codice all'età di 13 anni, e da lì mi sono innamorato della materia. Attualmente sono immerso nel mondo del Web Development, con lo stack MERN.</p>
                         </OtherCard>
                     </div>
+                    <div className="column is-half">
+                        <SkillProgress skill={languages} />
+                    </div>
+                    <div className="column is-half">
+                        <SkillProgress skill={libraries} />
+                    </div>
                 </div>
-                <h1 className="title is-size-3">Skills</h1>
-                <h2 className="subtitle is-size-4">Linguaggi</h2>
-
             </Section>
         </>
     );
