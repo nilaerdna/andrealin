@@ -5,10 +5,12 @@ import Section from '../components/Section';
 import { classe4Projects } from '../content/classe4Projects';
 import { FaExclamationTriangle } from 'react-icons/fa';
 
-export default function Classe3() {
+export default function Classe4() {
     return (
         <>
-            <Hero text="A.S. 2019/2020" />
+            <Hero text="A.S. 2019/2020">
+                <img src="assets/Logo.svg" alt="School Logo" className="icon is-medium" />
+            </Hero>
             <Section>
                 <article className="message is-danger">
                     <div className="message-body">
@@ -18,8 +20,8 @@ export default function Classe3() {
                     </div>
                 </article>
 
-                {classe4Projects.map(({ companyName, logoSrc, websiteName, websiteLink, description, timestamp, projectRoute }) => {
-                    return <SchoolProjectRow companyName={companyName} logoSrc={logoSrc} websiteName={websiteName} websiteLink={websiteLink} description={description} timestamp={timestamp} projectRoute={projectRoute} />;
+                {classe4Projects.map((project, index) => {
+                    return <SchoolProjectRow key={index} project={project} />;
                 })}
             </Section>
         </>

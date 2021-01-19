@@ -23,7 +23,9 @@ export default function Homepage({ icon, text }) {
 
     return (
         <>
-            <Hero text="Andrea Lin" />
+            <Hero text="Andrea Lin">
+                <img src="assets/Logo.svg" alt="School Logo" className="icon is-medium" />
+            </Hero>
 
             <Section>
                 <div className="columns is-multiline">

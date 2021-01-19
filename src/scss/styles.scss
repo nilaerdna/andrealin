@@ -2,6 +2,11 @@
 @import './custom.scss';
 @import 'bulma/bulma';
 
+@font-face {
+    font-family: 'Odin';
+    src: url('Odin.woff') format('woff');
+}
+
 // CSS Reset
 html,
 body {
@@ -11,9 +16,43 @@ body {
 
 * {
     box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+*:hover {
+    transition: 0.3s ease;
 }
 
 // Progress bar animation
 .progress::-webkit-progress-value {
-  transition: width 0.5s ease;
+    transition: width 0.5s ease;
+}
+
+.hero-title {
+    font-family: 'Odin';
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.hover-effect {
+    transition: 0.3s;
+}
+
+.hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+*::selection {
+    color: white;
+    background: rgba(41, 37, 243, 0.5);
+}
+
+*::-moz-selection {
+    color: white;
+    background: rgba(41, 37, 243, 0.5);
 }

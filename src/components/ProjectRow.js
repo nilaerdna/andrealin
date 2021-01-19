@@ -1,11 +1,12 @@
 import React from 'react';
 
-export default function ProjectRow({ name, image, description, link }) {
+export default function ProjectRow({ project }) {
+    const { name, image, description, link } = project;
     return (
         <article className="media">
             <figure className="media-left">
                 <a className="image is-128x128" target="_blank" rel="noopener noreferrer" href={link}>
-                    <img className="is-rounded" alt="Project Icon" src={image} />
+                    <img className="is-rounded hover-effect" alt="Project Icon" src={image} />
                 </a>
             </figure>
             <div className="media-content">

@@ -1,9 +1,9 @@
-/* Custom Scrollbar */
+// Custom Scrollbar
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-/* Track */
+// Track
 ::-webkit-scrollbar-track {
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -12,7 +12,7 @@
     -o-border-radius: 50px;
 }
 
-/* Handle */
+// Handle
 ::-webkit-scrollbar-thumb {
     background: silver;
     border-radius: 50px;
@@ -22,7 +22,7 @@
     -o-border-radius: 50px;
 }
 
-/* Handle on hover */
+// Handle on hover
 ::-webkit-scrollbar-thumb:hover {
     background: gray;
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 
-export default function SchoolProjectRow({ companyName, logoSrc, websiteName, websiteLink, description, timestamp, projectRoute }) {
+export default function SchoolProjectRow({ project }) {
+    const { companyName, logoSrc, websiteName, websiteLink, description, timestamp, projectRoute } = project;
     return (
         <article className="media">
             <figure className="media-left">
                 <p className="image is-128x128">
                     <a href={projectRoute}>
-                        <img className="is-rounded" alt="Company Logo" src={logoSrc} />
+                        <img className="is-rounded hover-effect" alt="Company Logo" src={logoSrc} />
                     </a>
                 </p>
             </figure>
