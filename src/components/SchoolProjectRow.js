@@ -1,14 +1,16 @@
 import React from 'react';
+import { useRouteMatch, Link } from 'react-router-dom';
 
 export default function SchoolProjectRow({ project }) {
     const { companyName, logoSrc, websiteName, websiteLink, description, timestamp, projectRoute } = project;
+    const { url } = useRouteMatch();
     return (
         <article className="media">
             <figure className="media-left">
                 <p className="image is-128x128">
-                    <a href={projectRoute}>
+                    <Link to={`${url}/${projectRoute}`}>
                         <img className="is-rounded hover-effect" alt="Company Logo" src={logoSrc} />
-                    </a>
+                    </Link>
                 </p>
             </figure>
             <div className="media-content">

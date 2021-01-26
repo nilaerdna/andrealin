@@ -10,7 +10,7 @@ import { languages } from '../content/languages';
 import { libraries } from '../content/libraries';
 import SkillProgress from '../components/SkillProgress';
 
-export default function Homepage({ icon, text }) {
+export default function Homepage() {
     const birthday = new Date('2002-10-31');
 
     const calculateAge = (birthday) => {
@@ -30,7 +30,7 @@ export default function Homepage({ icon, text }) {
             <Section>
                 <div className="columns is-multiline">
                     <div className="column is-half">
-                        <HomepageCard icon={<img className="is-rounded" src="https://nilaerdna.github.io/images/meirl.jpg" alt="Foto" />} title="Andrea Lin" color="is-info">
+                        <HomepageCard icon={<img className="is-rounded" src="https://i.imgur.com/TgxmYrp.jpg" alt="Foto" />} title="Andrea Lin" color="is-info">
                             <p>
                                 {age} anni
                                 <br />

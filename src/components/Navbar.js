@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, Link} from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [isActive, setActive] = useState('');
@@ -16,7 +16,7 @@ export default function Navbar() {
         <nav className="navbar is-fixed-top" role="navigation">
             <div className="navbar-brand">
                 <Link className="navbar-item" to="/">
-                    <img src="assets/Logo.svg" alt="Logo" />
+                    <img src="/assets/Logo.svg" alt="Logo" />
                 </Link>
 
                 { /* eslint-disable-next-line */ }
