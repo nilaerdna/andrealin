@@ -6,6 +6,6 @@ export const classe5Projects = [
         websiteLink: 'https://www.unicode.it/',
         description: "Siamo un'azienda specializzata in soluzioni software moderne per soddisfare le vostre esigenze. Una vasta gamma di servizi vi accompagneranno a raggiungere i vostri obiettivi.",
         timestamp: '15:00 - 30 apr 2020',
-        projectRoute: '#/5/unicode',
+        projectRoute: 'unicode',
     },
 ];
