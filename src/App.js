@@ -15,24 +15,12 @@ function App() {
             <Router>
                 <Navbar />
                 <Switch>
-                    <Route exact path="/">
-                        <Homepage />
-                    </Route>
-                    <Route exact path="/3">
-                        <Classe3 />
-                    </Route>
-                    <Route exact path="/4">
-                        <Classe4 />
-                    </Route>
-                    <Route exact path="/5">
-                        <Classe5 />
-                    </Route>
-                    <Route exact path="/other">
-                        <Other />
-                    </Route>
-                    <Route path="*">
-                        <NotFound />
-                    </Route>
+                    <Route exact path="/" component={Homepage} />
+                    <Route exact path="/3" component={Classe3} />
+                    <Route exact path="/4" component={Classe4} />
+                    <Route exact path="/5" component={Classe5} />
+                    <Route exact path="/other" component={Other} />
+                    <Route path="*" component={NotFound} />
                 </Switch>
             </Router>
             <Footer />
