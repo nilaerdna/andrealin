@@ -15,8 +15,8 @@ export default function Tiwi() {
                             <small>7, 8, 9 gennaio 2019 - Gruppo: Andrea Lin, Jonathan Mandato, Alessandro Franceschini, Filippo Gelosini.</small>
                         </p>
                         <br />
-                        <h1 className="title">Richiesta</h1>
-                        <h2 className="subtitle">Introdurre un'idea innovativa (ipotizzando che non esistesse) realizzando un relativo video/presentazione da mostrare ad un ipotetico datore di lavoro </h2>
+                        <h1 className="title is-size-4">Richiesta</h1>
+                        <h2 className="subtitle is-size-6">Introdurre un'idea innovativa (ipotizzando che non esistesse) realizzando un relativo video/presentazione da mostrare ad un ipotetico datore di lavoro </h2>
                         <hr />
                         <p>Ci hanno dato 5 punti chiave sulla quale basare il video:</p>
                         <ol>
@@ -39,8 +39,8 @@ export default function Tiwi() {
                             <li>Il nostro servizio deve essere di semplice utilizzo, gratuito, intuitivo.</li>
                         </ol>
                         <hr />
-                        <h1 className="title">Conclusioni</h1>
-                        <h2 className="subtitle">
+                        <h1 className="title is-size-4">Conclusioni</h1>
+                        <h2 className="subtitle is-size-6">
                             L'attività è stata molto divertente, la realizzazione del video è stata semplificata dall'utilizzo di{' '}
                             <a target="_blank" rel="noopener noreferrer" href="https://www.powtoon.com/">
                                 PowToon

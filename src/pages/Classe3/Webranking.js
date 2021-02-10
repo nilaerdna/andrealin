@@ -15,8 +15,8 @@ export default function Webranking() {
                             <small>17, 18, 19 gennaio 2019 - Gruppo: Andrea Lin, Elia Conti, Alberto Incerti.</small>
                         </p>
                         <br />
-                        <h1 className="title">Richiesta</h1>
-                        <h2 className="subtitle">Creare un sito web e-commerce, con minimo 3 pagine: Home, Pagina Prodotto, Carrello (possibilmente con il carrello funzionante) e disegnare i layout pensati per il sito web.</h2>
+                        <h1 className="title is-size-4">Richiesta</h1>
+                        <p className="subtitle is-size-6">Creare un sito web e-commerce, con minimo 3 pagine: Home, Pagina Prodotto, Carrello (possibilmente con il carrello funzionante) e disegnare i layout pensati per il sito web.</p>
                         <hr />
                         <p>
                             Il mio gruppo ha deciso di realizzare un sito e-commerce di componentistica hardware, perché è un argomento che ci accomunava. <br />
@@ -54,8 +54,8 @@ export default function Webranking() {
                         </table>
                         <p>Nessuno di noi aveva competenze in JavaScript.</p>
                         <hr />
-                        <h1 className="title">Conclusioni</h1>
-                        <h2 className="subtitle">
+                        <h1 className="title is-size-4">Conclusioni</h1>
+                        <p className="subtitle is-size-6">
                             L'attività è mi è piaciuta, perché inerente all'informatica, creativamente stimolante, e perché non conoscevo dell'esistenza dei framework (abbiamo utilizzato{' '}
                             <a target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/">
                                 Bootstrap
@@ -65,7 +65,7 @@ export default function Webranking() {
                                 simpleCart<sup>(js)</sup>
                             </a>
                             ).
-                        </h2>
+                        </p>
                         <hr />
                         <div className="columns">
                             <div className="column">

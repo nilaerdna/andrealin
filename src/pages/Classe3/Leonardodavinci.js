@@ -20,10 +20,10 @@ export default function Leonardodavinci() {
                             </small>
                         </p>
                         <br />
-                        <h1 className="title">Richiesta</h1>
-                        <h2 className="subtitle">Prestare servizio individuale aderendo al progetto "INFO.HTML" promosso dall'Istituto Comprensivo "Leonardo da Vinci" di Reggio Emilia e dall'Istituto Blaise Pascal di Reggio Emilia.</h2>
+                        <h1 className="title is-size-4">Richiesta</h1>
+                        <p className="subtitle is-size-6">Prestare servizio individuale aderendo al progetto "INFO.HTML" promosso dall'Istituto Comprensivo "Leonardo da Vinci" di Reggio Emilia e dall'Istituto Blaise Pascal di Reggio Emilia.</p>
                         <hr />
-                        <h1 className="title">Lezioni proposte</h1>
+                        <h1 className="title is-size-4">Lezioni proposte</h1>
                         <p>Le lezioni proposte ai ragazzi sono stati:</p>
                         <ol>
                             <li>Scratch: introduzione al programma, e primi esercizi.</li>
@@ -33,8 +33,8 @@ export default function Leonardodavinci() {
                             <li>C++: Approfondimento.</li>
                         </ol>
                         <hr />
-                        <h1 className="title">Conclusioni e competenze acquisite</h1>
-                        <p>Abbiamo imparato come insegnare e gestire una classe.</p>
+                        <h1 className="title is-size-4">Conclusioni e competenze acquisite</h1>
+                        <p className="subtitle is-size-6">Abbiamo imparato come insegnare e gestire una classe.</p>
                         <hr />
                         <div className="columns">
                             <div className="column">
@@ -48,7 +48,7 @@ export default function Leonardodavinci() {
                                 </a>
                             </div>
                             <div className="column">
-                                <a className="button is-info is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/Scratch2.pdf">
+                                <a className="button is-info is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/Scratcp.pdf">
                                     Lezione 2
                                 </a>
                             </div>

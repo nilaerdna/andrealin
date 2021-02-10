@@ -15,8 +15,8 @@ export default function Errevi() {
                             <small>21, 22, 23 gennaio 2019 - Gruppo: Andrea Lin, Elia Conti, Alberto Incerti.</small>
                         </p>
                         <br />
-                        <h1 className="title">Richiesta</h1>
-                        <h2 className="subtitle">
+                        <h1 className="title is-size-4">Richiesta</h1>
+                        <p className="subtitle is-size-6">
                             Creare un sito web che interagisce con l'API di{' '}
                             <a target="_blank" rel="noopener noreferrer" href="https://openweathermap.org/">
                                 OpenWeatherMap
@@ -26,10 +26,10 @@ export default function Errevi() {
                                 (PDF consegna)
                             </a>
                             .
-                        </h2>
+                        </p>
                         <hr />
-                        <h1 className="title">Conclusioni</h1>
-                        <h2 className="subtitle">L'attività mi è piaciuta molto, anche se la realizzazione del sito è stata difficile poiché non conoscevamo JavaScript, jQuery e i file JSON.</h2>
+                        <h1 className="title is-size-4">Conclusioni</h1>
+                        <p className="subtitle is-size-6">L'attività mi è piaciuta molto, anche se la realizzazione del sito è stata difficile poiché non conoscevamo JavaScript, jQuery e i file JSON.</p>
                         <hr />
                         <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/errevisystem/sosmeteo">
                             Demo

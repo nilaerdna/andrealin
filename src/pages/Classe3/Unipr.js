@@ -20,16 +20,16 @@ export default function Unipr() {
                             </small>{' '}
                         </p>
                         <br />
-                        <h1 className="title">Richiesta</h1>
-                        <h2 className="subtitle">
+                        <h1 className="title is-size-4">Richiesta</h1>
+                        <p className="subtitle is-size-6">
                             Riprodurre il videogioco{' '}
                             <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/WNrz9_Fe-Us">
                                 Frogger
                             </a>{' '}
                             nei linguaggi Python o Go.
-                        </h2>
+                        </p>
                         <hr />
-                        <h1 className="title">Cosa abbiamo fatto?</h1>
+                        <h1 className="title is-size-4">Cosa abbiamo fatto?</h1>
                         <p>
                             L'esperienza è durata 5 giorni in totale, con 4 ore obbligatorie la mattina e 4 ore facoltative il pomeriggio.
                             <br />
@@ -37,8 +37,10 @@ export default function Unipr() {
                             Durante lo sviluppo del videogioco, eravamo assistiti da studenti dell'università che ci aiutavano se avessimo avuto bisogno.
                         </p>
                         <hr />
-                        <h1 className="title">Conclusioni / Competenze acquisite</h1>
-                        <p>Siamo riusciti a creare una versione del gioco parzialmente simile all'originale imparando a programmare in un linguaggio nuovo, ci hanno anche spiegato le classi, che affronteremo l'anno prossimo in classe.</p>
+                        <h1 className="title is-size-4">Conclusioni / Competenze acquisite</h1>
+                        <p className="subtitle is-size-6">
+                            Siamo riusciti a creare una versione del gioco parzialmente simile all'originale imparando a programmare in un linguaggio nuovo, ci hanno anche spiegato le classi, che affronteremo l'anno prossimo in classe.
+                        </p>
                         <hr />
                         <div className="columns">
                             <div className="column">
