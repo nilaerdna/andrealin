@@ -10,7 +10,7 @@ export default function Montasmonta() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>2 marzo 2019 - Gruppo: Andrea Lin, Jonathan Mandato, Alessandro Franceschini.</small>
                         </p>
@@ -24,7 +24,7 @@ export default function Montasmonta() {
                             smonta/monta e sui componenti un computer che una vera e propria guida su come si monta un computer.
                         </h2>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=1uv7hWXZjpxORPaGhulY0SoxgYJf6DUNwF2K-Uhj7l-8">
+                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/montasmonta/relazioneGruppo2.pdf">
                             Relazione consegnata al professore
                         </a>
                     </div>

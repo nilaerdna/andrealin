@@ -10,7 +10,7 @@ export default function Errevi() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>21, 22, 23 gennaio 2019 - Gruppo: Andrea Lin, Elia Conti, Alberto Incerti.</small>
                         </p>
@@ -22,7 +22,7 @@ export default function Errevi() {
                                 OpenWeatherMap
                             </a>{' '}
                             e che restituisca determinati dati{' '}
-                            <a className="modal-button" rel="noopener noreferrer" data-target="pdf">
+                            <a className="modal-button" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/errevisystem/consegna.pdf">
                                 (PDF consegna)
                             </a>
                             .
@@ -31,7 +31,7 @@ export default function Errevi() {
                         <h1 className="title">Conclusioni</h1>
                         <h2 className="subtitle">L'attività mi è piaciuta molto, anche se la realizzazione del sito è stata difficile poiché non conoscevamo JavaScript, jQuery e i file JSON.</h2>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="sosmeteo\index.html">
+                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/errevisystem/sosmeteo">
                             Demo
                         </a>
                     </div>

@@ -58,7 +58,7 @@ export const classe3Projects = [
         logoSrc: 'https://i.imgur.com/oTZaoW4.png',
         websiteName: 'icdavincireggioemilia.edu.it',
         websiteLink: 'https://icdavincireggioemilia.edu.it/',
-        description: 'Istituto Comprensivo "Leonardo da Vinci" di Reggio Emilia.',
+        description: 'Istituto Comprensivo (secondaria di primo grado) "Leonardo da Vinci" di Reggio Emilia.',
         timestamp: '14:30 - 27 feb 2019',
         projectRoute: 'leonardodavinci',
     },

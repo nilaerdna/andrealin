@@ -10,7 +10,7 @@ export default function Webranking() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>17, 18, 19 gennaio 2019 - Gruppo: Andrea Lin, Elia Conti, Alberto Incerti.</small>
                         </p>
@@ -67,9 +67,18 @@ export default function Webranking() {
                             ).
                         </h2>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="systemvault\index.html">
-                            Demo
-                        </a>
+                        <div className="columns">
+                            <div className="column">
+                                <a className="button is-link is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/webranking/layout.pdf">
+                                    Layout
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-success is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/webranking/systemvault/">
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Section>

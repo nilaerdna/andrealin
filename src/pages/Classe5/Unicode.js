@@ -10,7 +10,7 @@ export default function Unicode() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>
                                 9 aprile 2019 - Classe 4<sup>a</sup>D.

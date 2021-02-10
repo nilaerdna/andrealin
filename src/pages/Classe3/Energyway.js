@@ -10,7 +10,7 @@ export default function Energyway() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>14, 15, 16 gennaio 2019 - Gruppo: Andrea Lin, Federico Giansoldati, Lorenzo Le Pera.</small>{' '}
                         </p>
@@ -36,8 +36,8 @@ export default function Energyway() {
                         <h1 className="title">Conclusioni</h1>
                         <h2 className="subtitle">L'attività è stata molto interessante, perché non sapevo dell'esistenza del portale Opendata di Reggio Emilia.</h2>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer"  target="_blank" href="https://drive.google.com/drive/folders/1D07OFhxOzHXMF0rH2uvb6pV1Q2fwJICP?usp=sharing">
-                            File e dati del progetto
+                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/energyway/StatsCity.pdf">
+                            Presentazione e file vari
                         </a>
                     </div>
                 </div>

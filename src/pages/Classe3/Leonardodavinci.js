@@ -10,7 +10,7 @@ export default function Leonardodavinci() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>
                                 27 febbraio - 6, 13, 27 marzo - 17 aprile 2019
@@ -36,9 +36,38 @@ export default function Leonardodavinci() {
                         <h1 className="title">Conclusioni e competenze acquisite</h1>
                         <p>Abbiamo imparato come insegnare e gestire una classe.</p>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/drive/folders/1AAzGt5F87I_3aHbIQ9iFqfQlKBB3llqo?usp=sharing">
-                            Lezioni presentate agli studenti
-                        </a>
+                        <div className="columns">
+                            <div className="column">
+                                <a className="button is-primary is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/partecipanti_DaVinci.pdf">
+                                    Organizzazione
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-link is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/Scratch1.pdf">
+                                    Lezione 1
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-info is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/Scratch2.pdf">
+                                    Lezione 2
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-success is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/DiagrammiABlocchi.pdf">
+                                    Lezione 3
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-warning is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/LezioneDiCpp.pdf">
+                                    Lezione 4
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-danger is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/leonardodavinci/EserciziInCpp.pdf">
+                                    Lezione 5
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Section>

@@ -40,7 +40,7 @@ export default function Katanaca() {
                         <h1 className="title">Conclusioni</h1>
                         <h2 className="subtitle">A me l'attività non è piaciuta, perché all'inizio non tutti hanno compreso l'obiettivo, noiosa e poco inerente con l'informatica</h2>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer"  target="_blank" href="katanaca\index.html">
+                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/katanaca/">
                             Demo
                         </a>
                     </div>

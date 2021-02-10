@@ -10,7 +10,7 @@ export default function Unipr() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             {' '}
                             <small>
@@ -27,17 +27,6 @@ export default function Unipr() {
                                 Frogger
                             </a>{' '}
                             nei linguaggi Python o Go.
-                            <br />
-                            <br />
-                            <a className="button is-info is-outlined is-hoverable modal-button" rel="noopener noreferrer" data-target="manifest">
-                                Locandina
-                            </a>
-                            <a className="button is-info is-outlined is-hoverable modal-button mx-1" rel="noopener noreferrer" data-target="certificate">
-                                Attestato di partecipazione
-                            </a>
-                            <a className="button is-info is-outlined is-hoverable" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSe8u8CEMKHuyyRfqC7douu4IcXsj_9ZZ4M2gZR7TkwDiAYshw/viewanalytics" target="_blank">
-                                Risultato form finale
-                            </a>
                         </h2>
                         <hr />
                         <h1 className="title">Cosa abbiamo fatto?</h1>
@@ -51,9 +40,28 @@ export default function Unipr() {
                         <h1 className="title">Conclusioni / Competenze acquisite</h1>
                         <p>Siamo riusciti a creare una versione del gioco parzialmente simile all'originale imparando a programmare in un linguaggio nuovo, ci hanno anche spiegato le classi, che affronteremo l'anno prossimo in classe.</p>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" href="#attualmente_non_disponibile">
-                            Risultato finale
-                        </a>
+                        <div className="columns">
+                            <div className="column">
+                                <a className="button is-link is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/unipr/manifest.pdf">
+                                    Locandina
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-success is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/unipr/certificate.pdf">
+                                    Attestato di partecipazione
+                                </a>
+                            </div>
+                            <div className="column">
+                                <a className="button is-warning is-outlined is-fullwidth" rel="noopener noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe8u8CEMKHuyyRfqC7douu4IcXsj_9ZZ4M2gZR7TkwDiAYshw/viewanalytics">
+                                    Sondaggio finale
+                                </a>
+                            </div>
+                            <div className="column">
+                                <button className="button is-danger is-outlined is-fullwidth" disabled>
+                                    Risultato finale
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Section>

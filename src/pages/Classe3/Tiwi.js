@@ -10,7 +10,7 @@ export default function Tiwi() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>7, 8, 9 gennaio 2019 - Gruppo: Andrea Lin, Jonathan Mandato, Alessandro Franceschini, Filippo Gelosini.</small>
                         </p>
@@ -49,7 +49,7 @@ export default function Tiwi() {
                             invece la scelta dell'idea è stata difficile anche se basata su una già esistente.
                         </h2>
                         <hr />
-                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="synergize\index.html">
+                        <a className="button is-link is-outlined is-fullwidth is-hoverable" rel="noopener noreferrer" target="_blank" href="https://linandrea.netlify.app/tiwi/synergize/">
                             Demo
                         </a>
                     </div>

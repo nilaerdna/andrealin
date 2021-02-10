@@ -10,7 +10,7 @@ export default function Accenture() {
             </Hero>
             <Section>
                 <div className="columns">
-                    <div className="column is-12">
+                    <div className="column">
                         <p>
                             <small>
                                 9 aprile 2019 - Classe 3<sup>a</sup>D.
