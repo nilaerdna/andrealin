@@ -17,4 +17,10 @@ export const projects = [
         description: 'Un generatore di chiavi di attivazione per i sistemi operativi Windows NT 4.0 e Windows 95.',
         link: 'https://www.windows95keygen.tk/',
     },
+    {
+        name: 'Heart Rate Monitor',
+        image: 'https://i.imgur.com/DLUOmY9.png',
+        description: 'Applicazion Full Stack MERN per la visualizzazione grafica del mio battito cardiaco, è un progetto formato da 4 parti, 1 server e 3 client diversi (realizzati per far pratica con React.js e TailwindCSS), tutti presenti sul mio profilo GitHub.',
+        link: 'https://heartrate.ml/',
+    },
 ];

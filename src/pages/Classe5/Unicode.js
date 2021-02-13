@@ -13,7 +13,7 @@ export default function Unicode() {
                     <div className="column">
                         <p>
                             <small>
-                                9 aprile 2019 - Classe 4<sup>a</sup>D.
+                                qualcosa 2021 - Classe 5<sup>a</sup>D.
                             </small>
                         </p>
                         todo

@@ -13,7 +13,7 @@ export default function Cna() {
                     <div className="column">
                         <p>
                             <small>
-                                9 aprile 2019 - Classe 4<sup>a</sup>D.
+                                qualcosa 2020 - Classe 4<sup>a</sup>D.
                             </small>
                         </p>
                         todo
