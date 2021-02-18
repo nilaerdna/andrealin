@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import SchoolProjectRow from '../components/SchoolProjectRow';
 import Section from '../components/Section';
 import { classe4Projects } from '../content/classe4Projects';
-import { FaExclamationTriangle } from 'react-icons/fa';
+import { TiWarning } from 'react-icons/ti';
 
 export default function Classe4() {
     return (
@@ -14,8 +14,8 @@ export default function Classe4() {
             <Section>
                 <article className="message is-danger">
                     <div className="message-body">
-                        <p>
-                            <FaExclamationTriangle className="icon is-small" /> Non sono state svolte attività di PCTO causa COVID-19.
+                        <p className="align-text-icon">
+                            <TiWarning style={{ marginRight: '5px' }} /> Non sono state svolte attività di PCTO causa COVID-19.
                         </p>
                     </div>
                 </article>

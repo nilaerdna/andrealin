@@ -1,5 +1,14 @@
 export const classe4Projects = [
     {
+        companyName: 'AND Emili',
+        logoSrc: 'https://i.imgur.com/g2qrcmt.png',
+        websiteName: 'andemili.it',
+        websiteLink: 'https://www.andemili.com/',
+        description: 'AND EMILI è una digital agency di Reggio Emilia con cuore tecnologico e occhio creativo, specializzata in digital product design e strategie di comunicazione online.',
+        timestamp: '15:30 - 27 feb 2020',
+        projectRoute: 'andemili',
+    },
+    {
         companyName: 'CNA',
         logoSrc: 'https://i.imgur.com/uVIBMkM.png',
         websiteName: 'cna.it',

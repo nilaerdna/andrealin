@@ -7,6 +7,7 @@ import Montasmonta from '../pages/Classe3/Montasmonta';
 import Leonardodavinci from '../pages/Classe3/Leonardodavinci';
 import Accenture from '../pages/Classe3/Accenture';
 import Unipr from '../pages/Classe3/Unipr';
+import Andemili from '../pages/Classe4/Andemili';
 import Cna from '../pages/Classe4/Cna';
 import Unicode from '../pages/Classe5/Unicode';
 
@@ -20,6 +21,7 @@ export const schoolProjects = {
     leonardodavinci: <Leonardodavinci />,
     accenture: <Accenture />,
     unipr: <Unipr />,
+    andemili: <Andemili />,
     cna: <Cna />,
     unicode: <Unicode />,
 };
